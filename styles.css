@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #13253F;
+}
+.container-fluid{
+    padding: 0;
+
+}
+.back-section{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap:7px;
+   color:#7B8FA1;
+   padding:5% 8%;
+}
+.booking-details{
+    padding:8%;
+}
+.selection{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 30px;
+}
+.selection div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection div p{
+    margin:0;
+    color:#7B8FA1;
+}
+.room-details-card{
+    padding:10px;
+    margin-top:30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.discount-code{
+    display: flex;
+    justify-content: center;
+}
+.discount-code input{
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #13253F;
+    padding:5px 10px;
+}
